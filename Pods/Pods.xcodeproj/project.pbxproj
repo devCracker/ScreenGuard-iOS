@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F25782050E07A63DE14C5977EB7A11 /* ScreenCaptureProtector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F6FE8A1517E8AF315D5B04BA123E0 /* ScreenCaptureProtector.swift */; };
+		0FA8A460FBE37C69F4CAB8C49201EDAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		20211CFEFDB65E3E96641EEC05B7E50A /* Pods-ScreenGuard-ScreenGuardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8966E8B12223703B16BF3E1D302A000 /* Pods-ScreenGuard-ScreenGuardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47011C9A0813890CB0BD804CB1C6B850 /* ScreenGuard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9649E0CD0DD4911EB1AA072E76C93D62 /* ScreenGuard-dummy.m */; };
+		5369BC79F17AD7D4CB1ACF3982137E29 /* ScreenGuard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD44397C738669868D0C07CABC960D50 /* ScreenGuard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594ADDB06C7A0783C40A50B55FB5ABD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D7FFF71DEF9125D33762C5FA2BD1594 /* Pods-ScreenGuardDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 568C378268363DDF126C058DC7C8B05F /* Pods-ScreenGuardDemo-dummy.m */; };
+		67C735B4DC7199A0D82017AE30BA53E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8CE4B070520211BB8757CD416ADA9426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A4FEBC3C5A5047360F04548973B02EEC /* Pods-ScreenGuard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DAE5B5E65BA5064D0F7D2492B782E7 /* Pods-ScreenGuard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FFB1884B7E029919C7C5668ADE45FE /* ScreenGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CB7E29385CC6AC83DF45FDDB4D2AB7 /* ScreenGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F018560FE8732C06C032440B74E6A1F4 /* Pods-ScreenGuardDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B92F1DF952AC3DA844D7EC6FF45C05 /* Pods-ScreenGuardDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F060940103F3EA9FC76AA0094E52A5B3 /* Pods-ScreenGuard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B141570E246A58D455236D822A7D8EB /* Pods-ScreenGuard-dummy.m */; };
+		FC5AB6249EB4F933A441768B60555B3E /* Pods-ScreenGuard-ScreenGuardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2AE3833528C8E362CC1DE29A06369 /* Pods-ScreenGuard-ScreenGuardTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF83279A52E067534FDC2FDDFE92A3E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01DB57ADA99B3ECFB8339EA1E0DAE0E4;
+			remoteInfo = ScreenGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008C02751C0E3A0D8ABB56912ED3BE67 /* Pods-ScreenGuard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenGuard-Info.plist"; sourceTree = "<group>"; };
+		01A370CE4AF753790233CE08C07B33D1 /* Pods-ScreenGuard-ScreenGuardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenGuard-ScreenGuardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		08CB7E29385CC6AC83DF45FDDB4D2AB7 /* ScreenGuard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenGuard.h; path = ScreenGuard/ScreenGuard.h; sourceTree = "<group>"; };
+		09D720BABDD7FF40E681E1A4E17FA4E0 /* ScreenGuard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenGuard.release.xcconfig; sourceTree = "<group>"; };
+		0F244DBC3FA33037E1638C35C3055658 /* Pods-ScreenGuardDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenGuardDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1B880560E40A36485C6F4D64745F26FA /* Pods-ScreenGuard-ScreenGuardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenGuard-ScreenGuardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D1DDD2C5596CEFC62914D6D1C96EBE0 /* Pods_ScreenGuard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScreenGuard.framework; path = "Pods-ScreenGuard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B84CCD0D194E32EA0DBF1D0D4B7C498 /* Pods-ScreenGuard-ScreenGuardTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenGuard-ScreenGuardTests.modulemap"; sourceTree = "<group>"; };
+		34B885A2BE30615F4AA11092860EA799 /* Pods-ScreenGuard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenGuard.release.xcconfig"; sourceTree = "<group>"; };
+		48021FC26F7793ED253E28BB6FF9D573 /* Pods_ScreenGuardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScreenGuardDemo.framework; path = "Pods-ScreenGuardDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAD014261A76185FB0BC6E6B195DF3D /* Pods-ScreenGuardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenGuardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		568C378268363DDF126C058DC7C8B05F /* Pods-ScreenGuardDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenGuardDemo-dummy.m"; sourceTree = "<group>"; };
+		5B141570E246A58D455236D822A7D8EB /* Pods-ScreenGuard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenGuard-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73ECA02DD506A43A67033FEF9FF80E1C /* ScreenGuard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenGuard-prefix.pch"; sourceTree = "<group>"; };
+		7BE7F8F9678198543C45D2DED5669962 /* Pods-ScreenGuard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenGuard-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BF2AE3833528C8E362CC1DE29A06369 /* Pods-ScreenGuard-ScreenGuardTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenGuard-ScreenGuardTests-dummy.m"; sourceTree = "<group>"; };
+		7D4079D631FFA020D570E670D7893B0E /* ScreenGuard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScreenGuard.framework; path = ScreenGuard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7F6FE8A1517E8AF315D5B04BA123E0 /* ScreenCaptureProtector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenCaptureProtector.swift; path = ScreenGuard/ScreenCaptureProtector.swift; sourceTree = "<group>"; };
+		7FB11B14850EE65C903E54DB75128467 /* Pods-ScreenGuardDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenGuardDemo-Info.plist"; sourceTree = "<group>"; };
+		818C673782D587BA6E2F082D512FFD21 /* Pods-ScreenGuardDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenGuardDemo.modulemap"; sourceTree = "<group>"; };
+		8471F1B0AB38BCAF5A10AB439B88FD48 /* Pods-ScreenGuard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenGuard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87EABA9A4C118232A5825EC4AC990304 /* Pods-ScreenGuardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenGuardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8FF99DE19776ED6E7AA49B0A62429A4F /* Pods-ScreenGuardDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenGuardDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		921EE5006F0A37A86B6BAE8B17A09E97 /* ScreenGuard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ScreenGuard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9649E0CD0DD4911EB1AA072E76C93D62 /* ScreenGuard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScreenGuard-dummy.m"; sourceTree = "<group>"; };
+		97E06D3C5645477FED08ACA62096891C /* ScreenGuard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScreenGuard-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8623E792FDBC15EC901D1825C11BD3E /* Pods-ScreenGuardDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenGuardDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDCA0EB97FE9F13BB693318821CE1BAD /* Pods-ScreenGuard-ScreenGuardTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenGuard-ScreenGuardTests-Info.plist"; sourceTree = "<group>"; };
+		C8966E8B12223703B16BF3E1D302A000 /* Pods-ScreenGuard-ScreenGuardTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenGuard-ScreenGuardTests-umbrella.h"; sourceTree = "<group>"; };
+		C901C376290E32FE3F371333739E64D2 /* Pods_ScreenGuard_ScreenGuardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScreenGuard_ScreenGuardTests.framework; path = "Pods-ScreenGuard-ScreenGuardTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B92F1DF952AC3DA844D7EC6FF45C05 /* Pods-ScreenGuardDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenGuardDemo-umbrella.h"; sourceTree = "<group>"; };
+		CD44397C738669868D0C07CABC960D50 /* ScreenGuard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenGuard-umbrella.h"; sourceTree = "<group>"; };
+		D31F5DF68031517995C083DE78E32906 /* ScreenGuard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScreenGuard.modulemap; sourceTree = "<group>"; };
+		DE419CCEF59CEA02CB7AD70D56A84581 /* Pods-ScreenGuard-ScreenGuardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenGuard-ScreenGuardTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBAA91B3A65541D627BC7CC02F837DFD /* Pods-ScreenGuard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenGuard.debug.xcconfig"; sourceTree = "<group>"; };
+		EFA67EF2A61A52C025EC051D8BE75396 /* Pods-ScreenGuard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenGuard.modulemap"; sourceTree = "<group>"; };
+		F4DAE5B5E65BA5064D0F7D2492B782E7 /* Pods-ScreenGuard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenGuard-umbrella.h"; sourceTree = "<group>"; };
+		FD534751820A8B2947C76698039CCDCD /* ScreenGuard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenGuard.debug.xcconfig; sourceTree = "<group>"; };
+		FE75077BF26024B20CE321A9BD70BDE4 /* Pods-ScreenGuard-ScreenGuardTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenGuard-ScreenGuardTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		193C123306786A0B2C83DAB7B4194CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA8A460FBE37C69F4CAB8C49201EDAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC39312D5B2541FE9CE90AACFD919A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594ADDB06C7A0783C40A50B55FB5ABD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931C0ED41BB662D50170FD10EE8AEBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE4B070520211BB8757CD416ADA9426 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896CBAB39FFFC22711CB85C8E6DA595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C735B4DC7199A0D82017AE30BA53E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C75707AC6FA1521769DA68FE005D4C2 /* Pods-ScreenGuardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				818C673782D587BA6E2F082D512FFD21 /* Pods-ScreenGuardDemo.modulemap */,
+				B8623E792FDBC15EC901D1825C11BD3E /* Pods-ScreenGuardDemo-acknowledgements.markdown */,
+				8FF99DE19776ED6E7AA49B0A62429A4F /* Pods-ScreenGuardDemo-acknowledgements.plist */,
+				568C378268363DDF126C058DC7C8B05F /* Pods-ScreenGuardDemo-dummy.m */,
+				0F244DBC3FA33037E1638C35C3055658 /* Pods-ScreenGuardDemo-frameworks.sh */,
+				7FB11B14850EE65C903E54DB75128467 /* Pods-ScreenGuardDemo-Info.plist */,
+				C9B92F1DF952AC3DA844D7EC6FF45C05 /* Pods-ScreenGuardDemo-umbrella.h */,
+				87EABA9A4C118232A5825EC4AC990304 /* Pods-ScreenGuardDemo.debug.xcconfig */,
+				4AAD014261A76185FB0BC6E6B195DF3D /* Pods-ScreenGuardDemo.release.xcconfig */,
+			);
+			name = "Pods-ScreenGuardDemo";
+			path = "Target Support Files/Pods-ScreenGuardDemo";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58450D560DB8098CA28E533F35BC7AEC /* ScreenGuard */ = {
+			isa = PBXGroup;
+			children = (
+				7F7F6FE8A1517E8AF315D5B04BA123E0 /* ScreenCaptureProtector.swift */,
+				08CB7E29385CC6AC83DF45FDDB4D2AB7 /* ScreenGuard.h */,
+				F4D1D85BB5EEF680F99693E047E75A25 /* Pod */,
+				DCA60DF28469726F0C19EE6BDAC90C15 /* Support Files */,
+			);
+			name = ScreenGuard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5EDE59BBDF5BDCEF4878DCD1DDCA7826 /* Pods-ScreenGuard-ScreenGuardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B84CCD0D194E32EA0DBF1D0D4B7C498 /* Pods-ScreenGuard-ScreenGuardTests.modulemap */,
+				1B880560E40A36485C6F4D64745F26FA /* Pods-ScreenGuard-ScreenGuardTests-acknowledgements.markdown */,
+				FE75077BF26024B20CE321A9BD70BDE4 /* Pods-ScreenGuard-ScreenGuardTests-acknowledgements.plist */,
+				7BF2AE3833528C8E362CC1DE29A06369 /* Pods-ScreenGuard-ScreenGuardTests-dummy.m */,
+				BDCA0EB97FE9F13BB693318821CE1BAD /* Pods-ScreenGuard-ScreenGuardTests-Info.plist */,
+				C8966E8B12223703B16BF3E1D302A000 /* Pods-ScreenGuard-ScreenGuardTests-umbrella.h */,
+				01A370CE4AF753790233CE08C07B33D1 /* Pods-ScreenGuard-ScreenGuardTests.debug.xcconfig */,
+				DE419CCEF59CEA02CB7AD70D56A84581 /* Pods-ScreenGuard-ScreenGuardTests.release.xcconfig */,
+			);
+			name = "Pods-ScreenGuard-ScreenGuardTests";
+			path = "Target Support Files/Pods-ScreenGuard-ScreenGuardTests";
+			sourceTree = "<group>";
+		};
+		6AE08020C181DC1380AC6EE885B87D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D1DDD2C5596CEFC62914D6D1C96EBE0 /* Pods_ScreenGuard.framework */,
+				C901C376290E32FE3F371333739E64D2 /* Pods_ScreenGuard_ScreenGuardTests.framework */,
+				48021FC26F7793ED253E28BB6FF9D573 /* Pods_ScreenGuardDemo.framework */,
+				7D4079D631FFA020D570E670D7893B0E /* ScreenGuard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F167BE5905CDA4DD05915BC9C23622 /* Pods-ScreenGuard */ = {
+			isa = PBXGroup;
+			children = (
+				EFA67EF2A61A52C025EC051D8BE75396 /* Pods-ScreenGuard.modulemap */,
+				8471F1B0AB38BCAF5A10AB439B88FD48 /* Pods-ScreenGuard-acknowledgements.markdown */,
+				7BE7F8F9678198543C45D2DED5669962 /* Pods-ScreenGuard-acknowledgements.plist */,
+				5B141570E246A58D455236D822A7D8EB /* Pods-ScreenGuard-dummy.m */,
+				008C02751C0E3A0D8ABB56912ED3BE67 /* Pods-ScreenGuard-Info.plist */,
+				F4DAE5B5E65BA5064D0F7D2492B782E7 /* Pods-ScreenGuard-umbrella.h */,
+				EBAA91B3A65541D627BC7CC02F837DFD /* Pods-ScreenGuard.debug.xcconfig */,
+				34B885A2BE30615F4AA11092860EA799 /* Pods-ScreenGuard.release.xcconfig */,
+			);
+			name = "Pods-ScreenGuard";
+			path = "Target Support Files/Pods-ScreenGuard";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D982D671A2055C6926ADAE769D6AF4E6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6AE08020C181DC1380AC6EE885B87D16 /* Products */,
+				D5506DD0B633EDAD08C48F03F87D573D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5506DD0B633EDAD08C48F03F87D573D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1F167BE5905CDA4DD05915BC9C23622 /* Pods-ScreenGuard */,
+				5EDE59BBDF5BDCEF4878DCD1DDCA7826 /* Pods-ScreenGuard-ScreenGuardTests */,
+				1C75707AC6FA1521769DA68FE005D4C2 /* Pods-ScreenGuardDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D982D671A2055C6926ADAE769D6AF4E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58450D560DB8098CA28E533F35BC7AEC /* ScreenGuard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DCA60DF28469726F0C19EE6BDAC90C15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D31F5DF68031517995C083DE78E32906 /* ScreenGuard.modulemap */,
+				9649E0CD0DD4911EB1AA072E76C93D62 /* ScreenGuard-dummy.m */,
+				97E06D3C5645477FED08ACA62096891C /* ScreenGuard-Info.plist */,
+				73ECA02DD506A43A67033FEF9FF80E1C /* ScreenGuard-prefix.pch */,
+				CD44397C738669868D0C07CABC960D50 /* ScreenGuard-umbrella.h */,
+				FD534751820A8B2947C76698039CCDCD /* ScreenGuard.debug.xcconfig */,
+				09D720BABDD7FF40E681E1A4E17FA4E0 /* ScreenGuard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ScreenGuard";
+			sourceTree = "<group>";
+		};
+		F4D1D85BB5EEF680F99693E047E75A25 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				921EE5006F0A37A86B6BAE8B17A09E97 /* ScreenGuard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BB5E435E6561C482625901D20145E91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F018560FE8732C06C032440B74E6A1F4 /* Pods-ScreenGuardDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3611B17F2AF6151FD8473BBD5F213A48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FEBC3C5A5047360F04548973B02EEC /* Pods-ScreenGuard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4B1AD67219731DD3A725161FA1EF6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20211CFEFDB65E3E96641EEC05B7E50A /* Pods-ScreenGuard-ScreenGuardTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7F98ECDDE9A74556C8BB6236292880 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5369BC79F17AD7D4CB1ACF3982137E29 /* ScreenGuard-umbrella.h in Headers */,
+				B0FFB1884B7E029919C7C5668ADE45FE /* ScreenGuard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01DB57ADA99B3ECFB8339EA1E0DAE0E4 /* ScreenGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDB84624E8F84F180583AC6504509F8 /* Build configuration list for PBXNativeTarget "ScreenGuard" */;
+			buildPhases = (
+				7F7F98ECDDE9A74556C8BB6236292880 /* Headers */,
+				75B93E45F875E855175481EDEF21C7CC /* Sources */,
+				C896CBAB39FFFC22711CB85C8E6DA595 /* Frameworks */,
+				114C4232CE4FCD0465B8F436C61A6699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenGuard;
+			productName = ScreenGuard;
+			productReference = 7D4079D631FFA020D570E670D7893B0E /* ScreenGuard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		809E4CB789E68814B0685B5EF70B5FD5 /* Pods-ScreenGuardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3592889E18296355EC904D9F5DADD7CD /* Build configuration list for PBXNativeTarget "Pods-ScreenGuardDemo" */;
+			buildPhases = (
+				1BB5E435E6561C482625901D20145E91 /* Headers */,
+				48E49D384B8CBAB2781A711556975A9B /* Sources */,
+				6CC39312D5B2541FE9CE90AACFD919A1 /* Frameworks */,
+				577CB88C98A295742D7C9B171E8A2547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF546D353D757C2D3BD801400E90D41E /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenGuardDemo";
+			productName = "Pods-ScreenGuardDemo";
+			productReference = 48021FC26F7793ED253E28BB6FF9D573 /* Pods_ScreenGuardDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6C4ECB805BCD44FBC263B7EA4C99DEF /* Pods-ScreenGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC437E9C2456F934A3845D1878C4E9C /* Build configuration list for PBXNativeTarget "Pods-ScreenGuard" */;
+			buildPhases = (
+				3611B17F2AF6151FD8473BBD5F213A48 /* Headers */,
+				59987650F163639CE89FE4629C377BC3 /* Sources */,
+				193C123306786A0B2C83DAB7B4194CE4 /* Frameworks */,
+				BBC693E44D5686459081B076D4CC660C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScreenGuard";
+			productName = "Pods-ScreenGuard";
+			productReference = 1D1DDD2C5596CEFC62914D6D1C96EBE0 /* Pods_ScreenGuard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DAE92312E2DCDE293CCBAEF187BE02A5 /* Pods-ScreenGuard-ScreenGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39311F14BFB347F62E01A58A0DA32161 /* Build configuration list for PBXNativeTarget "Pods-ScreenGuard-ScreenGuardTests" */;
+			buildPhases = (
+				4F4B1AD67219731DD3A725161FA1EF6C /* Headers */,
+				BB653FF7617F93B1AE48BD78EE70FA8C /* Sources */,
+				931C0ED41BB662D50170FD10EE8AEBAB /* Frameworks */,
+				A22813554F571011B177ADB9F404E4A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScreenGuard-ScreenGuardTests";
+			productName = "Pods-ScreenGuard-ScreenGuardTests";
+			productReference = C901C376290E32FE3F371333739E64D2 /* Pods_ScreenGuard_ScreenGuardTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6AE08020C181DC1380AC6EE885B87D16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C4ECB805BCD44FBC263B7EA4C99DEF /* Pods-ScreenGuard */,
+				DAE92312E2DCDE293CCBAEF187BE02A5 /* Pods-ScreenGuard-ScreenGuardTests */,
+				809E4CB789E68814B0685B5EF70B5FD5 /* Pods-ScreenGuardDemo */,
+				01DB57ADA99B3ECFB8339EA1E0DAE0E4 /* ScreenGuard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114C4232CE4FCD0465B8F436C61A6699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577CB88C98A295742D7C9B171E8A2547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22813554F571011B177ADB9F404E4A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC693E44D5686459081B076D4CC660C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48E49D384B8CBAB2781A711556975A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7FFF71DEF9125D33762C5FA2BD1594 /* Pods-ScreenGuardDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59987650F163639CE89FE4629C377BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F060940103F3EA9FC76AA0094E52A5B3 /* Pods-ScreenGuard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B93E45F875E855175481EDEF21C7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F25782050E07A63DE14C5977EB7A11 /* ScreenCaptureProtector.swift in Sources */,
+				47011C9A0813890CB0BD804CB1C6B850 /* ScreenGuard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB653FF7617F93B1AE48BD78EE70FA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5AB6249EB4F933A441768B60555B3E /* Pods-ScreenGuard-ScreenGuardTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF546D353D757C2D3BD801400E90D41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScreenGuard;
+			target = 01DB57ADA99B3ECFB8339EA1E0DAE0E4 /* ScreenGuard */;
+			targetProxy = BF83279A52E067534FDC2FDDFE92A3E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		012BE73DFBD0C7158CF5EAA4E15AA4F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B885A2BE30615F4AA11092860EA799 /* Pods-ScreenGuard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenGuard/Pods-ScreenGuard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenGuard/Pods-ScreenGuard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		373600326BB2F02E5EE81B4F18FB3645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D720BABDD7FF40E681E1A4E17FA4E0 /* ScreenGuard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenGuard/ScreenGuard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScreenGuard/ScreenGuard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScreenGuard/ScreenGuard.modulemap";
+				PRODUCT_MODULE_NAME = ScreenGuard;
+				PRODUCT_NAME = ScreenGuard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F1C6C5E9241CC650F68AE55476F0FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A370CE4AF753790233CE08C07B33D1 /* Pods-ScreenGuard-ScreenGuardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenGuard-ScreenGuardTests/Pods-ScreenGuard-ScreenGuardTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenGuard-ScreenGuardTests/Pods-ScreenGuard-ScreenGuardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B1AEBDB2D547078721037797C0466009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE419CCEF59CEA02CB7AD70D56A84581 /* Pods-ScreenGuard-ScreenGuardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenGuard-ScreenGuardTests/Pods-ScreenGuard-ScreenGuardTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenGuard-ScreenGuardTests/Pods-ScreenGuard-ScreenGuardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E137216F81C940047F6B2AC911031893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBAA91B3A65541D627BC7CC02F837DFD /* Pods-ScreenGuard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenGuard/Pods-ScreenGuard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenGuard/Pods-ScreenGuard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E658D2E9AC608B10D29237B0B0058D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAD014261A76185FB0BC6E6B195DF3D /* Pods-ScreenGuardDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenGuardDemo/Pods-ScreenGuardDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenGuardDemo/Pods-ScreenGuardDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4EF633C667C790AE7BF39FACA9C3942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EABA9A4C118232A5825EC4AC990304 /* Pods-ScreenGuardDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenGuardDemo/Pods-ScreenGuardDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenGuardDemo/Pods-ScreenGuardDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDE3D4C264848DDEFC98709E6DB9536F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD534751820A8B2947C76698039CCDCD /* ScreenGuard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenGuard/ScreenGuard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScreenGuard/ScreenGuard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScreenGuard/ScreenGuard.modulemap";
+				PRODUCT_MODULE_NAME = ScreenGuard;
+				PRODUCT_NAME = ScreenGuard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EDB84624E8F84F180583AC6504509F8 /* Build configuration list for PBXNativeTarget "ScreenGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE3D4C264848DDEFC98709E6DB9536F /* Debug */,
+				373600326BB2F02E5EE81B4F18FB3645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3592889E18296355EC904D9F5DADD7CD /* Build configuration list for PBXNativeTarget "Pods-ScreenGuardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EF633C667C790AE7BF39FACA9C3942 /* Debug */,
+				E658D2E9AC608B10D29237B0B0058D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39311F14BFB347F62E01A58A0DA32161 /* Build configuration list for PBXNativeTarget "Pods-ScreenGuard-ScreenGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C6C5E9241CC650F68AE55476F0FEE /* Debug */,
+				B1AEBDB2D547078721037797C0466009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */,
+				593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC437E9C2456F934A3845D1878C4E9C /* Build configuration list for PBXNativeTarget "Pods-ScreenGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E137216F81C940047F6B2AC911031893 /* Debug */,
+				012BE73DFBD0C7158CF5EAA4E15AA4F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ScreenGuard",
+  "version": "0.0.1",
+  "summary": "Simple lib to protect the app from screen capture and record",
+  "description": "MapboxSearchSDK implement basic search functionality over Mapbox Search API\nSome iOS platfrom specifics applies.",
+  "homepage": "https://github.com/venkatg2/",
+  "license": "MIT",
+  "authors": "Venkat",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/venkatg2/ScreenGuard.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "ScreenGuard/**/*.{swift,m,h}"
+}

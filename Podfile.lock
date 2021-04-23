@@ -1,0 +1,16 @@
+PODS:
+  - ScreenGuard (0.0.1)
+
+DEPENDENCIES:
+  - ScreenGuard (from `.`)
+
+EXTERNAL SOURCES:
+  ScreenGuard:
+    :path: "."
+
+SPEC CHECKSUMS:
+  ScreenGuard: ea0ea4f6bd6c949af557bf0716e5a8e59af0463d
+
+PODFILE CHECKSUM: 37171dd71ee22ce12b5dc44986e6f6c66273f606
+
+COCOAPODS: 1.10.1
