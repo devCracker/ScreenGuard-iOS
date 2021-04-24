@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description   = <<-DESC
 simple lib to solve most iOS developers pain to protect the screenshot.
                         DESC
-  s.homepage      = "https://github.com/devcracker/"
+  s.homepage      = "https://github.com/devcracker"
   s.license       = "MIT"
   s.author        = "devCracker"
   s.platform      = :ios, "11.0"
