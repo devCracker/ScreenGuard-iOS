@@ -30,7 +30,7 @@ private extension UIView {
         
         addSubview(guardTextField)
         guardTextField.isUserInteractionEnabled = false
-        sendSubview(toBack: guardTextField)
+        sendSubviewToBack(guardTextField)
         
         layer.superlayer?.addSublayer(guardTextField.layer)
         guardTextField.layer.sublayers?.first?.addSublayer(layer)
