@@ -13,7 +13,6 @@
 		ABC234A226318CAE0045BA59 /* ScreenGuard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC2349826318CAE0045BA59 /* ScreenGuard.framework */; };
 		ABC234A726318CAE0045BA59 /* ScreenGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC234A626318CAE0045BA59 /* ScreenGuardTests.swift */; };
 		ABC234A926318CAE0045BA59 /* ScreenGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC2349B26318CAE0045BA59 /* ScreenGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABC234B526318CE90045BA59 /* ScreenCaptureProtector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC234B426318CE90045BA59 /* ScreenCaptureProtector.swift */; };
 		ABC234BF26318D070045BA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC234BE26318D070045BA59 /* AppDelegate.swift */; };
 		ABC234C126318D070045BA59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC234C026318D070045BA59 /* SceneDelegate.swift */; };
 		ABC234C326318D070045BA59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC234C226318D070045BA59 /* ViewController.swift */; };
@@ -47,7 +46,6 @@
 		ABC234A126318CAE0045BA59 /* ScreenGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC234A626318CAE0045BA59 /* ScreenGuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenGuardTests.swift; sourceTree = "<group>"; };
 		ABC234A826318CAE0045BA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABC234B426318CE90045BA59 /* ScreenCaptureProtector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureProtector.swift; sourceTree = "<group>"; };
 		ABC234BC26318D070045BA59 /* ScreenGuardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenGuardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC234BE26318D070045BA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABC234C026318D070045BA59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				ABC2349B26318CAE0045BA59 /* ScreenGuard.h */,
-				ABC234B426318CE90045BA59 /* ScreenCaptureProtector.swift */,
 				ABC234D826318FBD0045BA59 /* ScreenGuard.podspec */,
 				ABC2349C26318CAE0045BA59 /* Info.plist */,
 			);
@@ -406,7 +403,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC234B526318CE90045BA59 /* ScreenCaptureProtector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,7 +639,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E15E5858B479EC7817755C48 /* Pods-ScreenGuard-ScreenGuardTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AP743B8SS;
 				INFOPLIST_FILE = ScreenGuardTests/Info.plist;
@@ -663,7 +658,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 529B22D38685B12B551B0E95 /* Pods-ScreenGuard-ScreenGuardTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AP743B8SS;
 				INFOPLIST_FILE = ScreenGuardTests/Info.plist;
