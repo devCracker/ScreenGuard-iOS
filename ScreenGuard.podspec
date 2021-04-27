@@ -9,6 +9,7 @@ simple lib to solve most iOS developers pain to protect the screenshot.
   s.license       = "MIT"
   s.author        = "devCracker"
   s.platform      = :ios, "11.0"
+  s.swift_version = '5.3'
   s.source        = {
     :git => "https://github.com/devcracker/ScreenGuard-iOS.git",
     :tag => "#{s.version}"
