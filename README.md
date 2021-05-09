@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/26670329/115957680-79267780-a521-11eb-
 ### ToDo: 
 
   1. Fine tuning Topmost View's logic.
-  2. Go for Deep Test it compeltely in big app to make sure that it is not breaking any views.
+  2. Go for a Deep Testing compeltely in a big app to make sure that it is not breaking any views.
   3. Add a delegate method after screenshot is taken by listening apple's notification.
 
 ### Support: 
