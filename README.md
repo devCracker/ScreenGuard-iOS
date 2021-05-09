@@ -22,6 +22,8 @@ Please feel free to  add new enhancements and raise pull requests. Thank You!!!.
 https://user-images.githubusercontent.com/26670329/115957680-79267780-a521-11eb-873a-6b4360ead3a4.MP4
 
 
+### Want to know about my path to this solution?.
+   Compelte story is written [here](https://meetmurali88.medium.com/a-way-to-protect-your-app-content-from-screenshots-in-ios-ea23153a3bc7), please have a look.
 
 ### ToDo: 
 
@@ -31,9 +33,9 @@ https://user-images.githubusercontent.com/26670329/115957680-79267780-a521-11eb-
 
 ### Support: 
 
-  As this screenshot protection is pain for every iOS developers so far, and some paid versions like screenshieldkit are available with well tested functionality. But here i am providing a tip and library to use for the people who can not buy a paid version. If you like to support my work by paying a coffee/beer money, please click on this https://paypal.me/devcracker. If you cant pay, please give a star that would make my life easier. 
+  As this screenshot protection is pain for every iOS developers so far, and some paid versions like screenshieldkit are available with well tested functionality. But here i am providing a tip and library to use for the people who can not buy a paid version. If you like to support my work by paying a coffee/beer money, please click on this [link](https://paypal.me/devcracker). If you cant pay, please give a star that would make my life easier. 
   
-  
+
 ### Thanks
 
 
