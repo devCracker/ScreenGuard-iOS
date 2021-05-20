@@ -13,6 +13,7 @@ The aim of this pod is to give a tip to fellow iOS developers community to handl
 #### Known issues & TODO
 1. We didnt test this completely, but it will give you an idea how you can protect your app content from screenshots and recoding.
 2. some logic needs to be fine tuned.
+3. Need to check for SwiftUI?
 
 Please feel free to  add new enhancements and raise pull requests. Thank You!!!.
 
@@ -33,7 +34,7 @@ https://user-images.githubusercontent.com/26670329/115957680-79267780-a521-11eb-
 
 ### Support: 
 
-  As this screenshot protection is pain for every iOS developers so far, and some paid versions like screenshieldkit are available with well tested functionality. But here i am providing a tip and library to use for the people who can not buy a paid version. If you like to support my work by paying a coffee/beer money, please click on this [link](https://paypal.me/devcracker). If you cant pay, please give a star that would make my life easier. 
+  As this screenshot protection is a pain for every iOS developers so far, and some paid versions like screenshieldkit are available with well tested functionality. But here i am providing a tip and library to use for the people who can not buy a paid version. If you like to support my work by paying a coffee/beer money, please click on this [link](https://paypal.me/devcracker). If you cant pay, please give a star that would make my life easier. 
   
 
 ### Thanks
